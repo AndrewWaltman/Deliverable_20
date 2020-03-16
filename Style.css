@@ -1,17 +1,12 @@
-p, h2, li{
-    font-family: Arial, Helvetica, sans-serif;
-}
 body{
     background-color: white;
 }
-
 /* Add a black background color to the top navigation */
 #topnav {
     background-color: #333;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
   /* Style the links inside the navigation bar */
   #topnav a {
     float: left;
@@ -21,13 +16,11 @@ body{
     text-decoration: none;
     font-size: 17px;
   }
-  
   /* Change the color of links on hover */
   #topnav a:hover {
     background-color: rgb(213, 213, 218);
     color: black;
   }
-  
   /* Add a color to the active/current link */
   #topnav a.active {
     background-color: rgb(92, 151, 230);
@@ -42,25 +35,50 @@ body{
     top: 0;
     width: 100%;
   }
-  
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 60px;
   }
-
-
 .headerFont{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 400%;
+    margin-top: 6px;
+    font-size: 350%;
+    background-color: rgb(92, 151, 230);
+    color: #f2f2f2;
 }
-.firstFont{
+.secondaryTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: black;
+    text-align: center;
     color: black;
     font-size: 150%;
 }
-.secondFont{
-    color: black;
+.leftTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: black;
+  text-align: left;
+  color: black;
+  font-size: 150%;
+}
+.boxedFont{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    width: 500px;
+    padding: 45px;
+    margin: auto;
+    color: #f2f2f2;
+    text-align: center;
     font-size: 120%;
+}
+.imageResize{
+  width: 5%;
+}
+.mapResize{
+  width: 40%;
+}
+#map {
+  height: 50%;
 }
 .footer{
     font-size: 100%;
@@ -69,9 +87,8 @@ body{
     background-color: #333;
     padding: 14px 16px;
     font-family: Arial, Helvetica, sans-serif;
-    left: 3;
-    bottom: 0;
-    width: 98%;
-    position: fixed;
+    left: 8;
+    bottom: -10;
+    width: 97.5%;
 }
 
